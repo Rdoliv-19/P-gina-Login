@@ -99,3 +99,13 @@
 .formulario-texto a{
     color: var(--azul);
 }
+
+@media screen and (max-width : 425px){
+    .banner{
+        display: none;
+    }
+
+    .formulario{
+        padding: 4em;
+    }
+}
